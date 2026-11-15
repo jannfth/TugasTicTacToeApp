@@ -47,3 +47,24 @@ Sebelum mulai merancang atau menjalankan aplikasi Tic Tac Toe ini, pastikan kamu
 1. **Clone repositori ini ke komputer lokal kamu:**
    ```bash
    git clone [https://github.com/jannfth/TugasTicTacToeApp.git](https://github.com/jannfth/TugasTicTacToeApp.git)
+
+## 📂 Struktur Folder Proyek
+Berikut adalah rancangan struktur direktori yang digunakan dalam proyek ini:
+
+```text
+TugasTicTacToeApp/
+│
+├── Test.png                 # Screenshot / preview tampilan aplikasi
+├── struktur.txt             # Berkas dokumentasi struktur direktori proyek
+├── assets/                  # Folder penyimpanan aset (ikon, gambar, atau audio)
+│   ├── icon_x.png
+│   └── icon_o.png
+│
+├── src/                     # Folder kode sumber utama aplikasi
+│   ├── components/          # Komponen UI (papan grid, tombol reset, dll)
+│   ├── logic/               # Logika permainan (pengecekan pemenang & giliran)
+│   └── main.app             # Titik masuk utama aplikasi (Entry point)
+│
+├── .gitignore               # Berkas pengecualian Git
+├── package.json             # (Opsional) Daftar dependensi proyek
+└── README.md                # Dokumentasi proyek
