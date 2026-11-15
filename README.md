@@ -19,6 +19,14 @@ Berikut adalah tampilan antarmuka dari aplikasi Tic Tac Toe:
 
 ---
 
+## 📋 Prasyarat Pembuatan
+Sebelum mulai merancang atau menjalankan aplikasi Tic Tac Toe ini, pastikan kamu telah menyiapkan beberapa hal berikut:
+* **Perangkat Lunak / IDE:** Menggunakan *Android Studio*, *Visual Studio Code*, atau editor kode lain yang mendukung bahasa pilihanmu.
+* **Bahasa Pemrograman:** Pemahaman dasar tentang logika pemrograman (seperti *Conditional Statements*, *Arrays/Grid Matrix*, dan *Event Handling*).
+* **Git:** Terinstal di komputer untuk melakukan pengelolaan versi kode sumber.
+
+---
+
 ## ✨ Fitur Utama
 * **Pemain Ganda (2-Player Mode):** Mendukung permainan secara bergantian untuk dua orang dalam satu perangkat.
 * **Deteksi Pemenang Otomatis:** Sistem secara otomatis mendeteksi kondisi kemenangan (baris, kolom, atau diagonal) maupun kondisi seri (*draw*).
@@ -39,19 +47,3 @@ Berikut adalah tampilan antarmuka dari aplikasi Tic Tac Toe:
 1. **Clone repositori ini ke komputer lokal kamu:**
    ```bash
    git clone [https://github.com/jannfth/TugasTicTacToeApp.git](https://github.com/jannfth/TugasTicTacToeApp.git)
-
-
-TugasTicTacToeApp/
-│
-├── Test.png                 # Screenshot / preview tampilan aplikasi
-├── assets/                  # Folder penyimpanan aset (ikon, gambar, atau audio)
-│   ├── icon_x.png
-│   └── icon_o.png
-├── src/                     # Folder kode sumber utama aplikasi
-│   ├── components/          # Komponen UI (papan grid, tombol reset, dll)
-│   ├── logic/               # Logika permainan (pengecekan pemenang & giliran)
-│   └── main.app             # Titik masuk utama aplikasi (Entry point)
-│
-├── .gitignore               # Berkas pengecualian Git
-├── package.json             # (Opsional) Daftar dependensi proyek
-└── README.md                # Dokumentasi proyek
