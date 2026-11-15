@@ -10,6 +10,15 @@ Tic Tac Toe adalah game klasik berbasis giliran (*turn-based*) di mana dua pemai
 
 ---
 
+## 📸 Screenshot Aplikasi
+Berikut adalah tampilan antarmuka dari aplikasi Tic Tac Toe:
+
+<p align="center">
+  <img src="Test.png" alt="Screenshot Tic Tac Toe App" width="400"/>
+</p>
+
+---
+
 ## ✨ Fitur Utama
 * **Pemain Ganda (2-Player Mode):** Mendukung permainan secara bergantian untuk dua orang dalam satu perangkat.
 * **Deteksi Pemenang Otomatis:** Sistem secara otomatis mendeteksi kondisi kemenangan (baris, kolom, atau diagonal) maupun kondisi seri (*draw*).
@@ -20,7 +29,7 @@ Tic Tac Toe adalah game klasik berbasis giliran (*turn-based*) di mana dua pemai
 ---
 
 ## 🛠️ Teknologi & Alat yang Digunakan
-* **Bahasa Pemrograman / Framework:** *(Sesuaikan dengan yang kamu pakai, misal: Java / Kotlin / JavaScript / Flutter / MIT App Inventor)*
+* **Bahasa Pemrograman / Framework:** *(Sesuaikan dengan yang kamu pakai, misal: Java / Kotlin / JavaScript / Flutter)*
 * **Tools / IDE:** *(Contoh: Android Studio / Visual Studio Code)*
 * **Pengelolaan Versi:** Git & GitHub
 
